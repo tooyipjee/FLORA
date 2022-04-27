@@ -743,7 +743,7 @@
     (property "Datasheet" "https://docs.ai-thinker.com/_media/lora/docs/ra-01s_specification.pdf" (id 3) (at 140.97 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "Ra-01SC" (id 4) (at 138.43 92.71 0)
+    (property "LCSC" "C2830749" (id 4) (at 138.43 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 121d3f26-18c7-44c5-bc5d-d20cc3d198cf))

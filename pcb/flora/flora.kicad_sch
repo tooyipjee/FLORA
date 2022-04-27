@@ -43,6 +43,10 @@
   )
 
 
+  (no_connect (at 200.66 109.855) (uuid fa541693-ed65-4e12-a1f2-07893670f94d))
+  (no_connect (at 200.66 104.14) (uuid fa541693-ed65-4e12-a1f2-07893670f94e))
+  (no_connect (at 200.66 106.045) (uuid fa541693-ed65-4e12-a1f2-07893670f94f))
+  (no_connect (at 200.66 107.95) (uuid fa541693-ed65-4e12-a1f2-07893670f950))
 
   (wire (pts (xy 227.33 93.98) (xy 248.285 93.98))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -68,6 +72,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 3d50c740-ab6f-45cd-bb95-8df43c198a08)
   )
+  (wire (pts (xy 200.66 107.95) (xy 201.93 107.95))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 3d9eb52d-ed6e-49ac-a05e-5cb139ff1dcd)
+  )
   (wire (pts (xy 169.545 118.11) (xy 201.93 118.11))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 43f72311-9d74-4379-aff9-849c5d7414c8)
@@ -92,6 +100,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 5fc03015-6f9b-4e08-9fd5-ba1cb6c63544)
   )
+  (wire (pts (xy 200.66 104.14) (xy 201.93 104.14))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 63baf58c-4f1a-4643-b0fb-8d913bfd8396)
+  )
   (wire (pts (xy 227.33 107.315) (xy 248.285 107.315))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 9160bd7c-b1e8-4696-a277-d1ed726202fe)
@@ -112,9 +124,17 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b2e7f506-f7d4-448a-af52-7dbef3267d9c)
   )
+  (wire (pts (xy 200.66 109.855) (xy 201.93 109.855))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid b69e7ab4-f1b6-4552-a881-d52c25fb739e)
+  )
   (wire (pts (xy 186.055 98.425) (xy 201.93 98.425))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b825db6d-eaf6-475d-bf93-964d29afb19e)
+  )
+  (wire (pts (xy 200.66 106.045) (xy 201.93 106.045))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid c2100071-2b3e-47f1-8ce2-9ab1c827ea67)
   )
   (wire (pts (xy 227.33 113.03) (xy 248.285 113.03))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -769,6 +789,9 @@
     (path "/99e49cb0-f4b5-4d70-9f27-821a65e53a72/3da38d78-19ad-48c9-9059-9d6b7c3dbeda"
       (reference "IC6") (unit 1) (value "TPS54331DR") (footprint "SOIC127P600X175-8N")
     )
+    (path "/99e49cb0-f4b5-4d70-9f27-821a65e53a72/1b89367c-4aae-4e6b-b570-3f6f87660807"
+      (reference "IC7") (unit 1) (value "AMS1117-3.3") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+    )
     (path "/74a12308-4a41-4350-a047-fe690f0632a6/55a5862a-10a4-4102-a2c3-317b201915d7"
       (reference "J1") (unit 1) (value "KF350-3.5-2P") (footprint "KF350352P")
     )
@@ -915,9 +938,6 @@
     )
     (path "/27260fd1-7e11-444d-9206-9db48718c252/361ef32f-df03-4c0a-b1ec-da0055861d33"
       (reference "U1") (unit 1) (value "Ai-Thinker-Ra-01") (footprint "RF_Module:Ai-Thinker-Ra-01-LoRa")
-    )
-    (path "/99e49cb0-f4b5-4d70-9f27-821a65e53a72/8bb93efb-f20a-4989-8e16-adcb4d6687f1"
-      (reference "U2") (unit 1) (value "AMS1117") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
     )
     (path "/74a12308-4a41-4350-a047-fe690f0632a6/d0a49961-7295-411a-ad35-86faadb61ab4"
       (reference "U3") (unit 1) (value "USBLC6-2P6") (footprint "Package_TO_SOT_SMD:SOT-666")

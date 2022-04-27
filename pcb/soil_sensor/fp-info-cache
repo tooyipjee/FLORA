@@ -1,4 +1,4 @@
-20128598413362963
+20135200493485224
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -78036,6 +78036,13 @@ TVS Diode (Bi-directional)
 2
 2
 SamacSys_Parts
+LGA-12
+LGA-12
+Integrated Circuit
+0
+12
+12
+SamacSys_Parts
 LGA12_1
 LGA12_1
 Undefined or Miscellaneous
@@ -78217,6 +78224,13 @@ Integrated Circuit
 0
 45
 45
+SamacSys_Parts
+QFN65P300X300X84-12N
+QFN 3.0 x 3.0
+Integrated Circuit
+0
+12
+12
 SamacSys_Parts
 QFN65P400X400X100-16N
 QFN16 (3x3x0.55)-1
@@ -78798,6 +78812,13 @@ Variable Resistor
 0
 3
 3
+SamacSys_Parts
+VL53L1CXV0FY1
+VL53L1CXV0FY/1
+Integrated Circuit
+0
+12
+12
 SamacSys_Parts
 VLS6045
 VLS6045
@@ -85819,6 +85840,13 @@ USB_TestPoint
 0
 4
 4
+personal
+VG1040003D
+
+
+0
+0
+0
 personal
 logo
 
