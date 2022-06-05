@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>C:\Github\FLORA\pcb\flora\flora.kicad_sch</source>
-    <date>27/04/2022 20:10:37</date>
+    <date>01/06/2022 22:52:37</date>
     <tool>Eeschema (6.0.0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>FLORA</title>
         <company/>
-        <rev>A</rev>
-        <date>2022-03-23</date>
+        <rev>B</rev>
+        <date>2022-06-01</date>
         <source>flora.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -24,10 +24,10 @@
     </sheet>
     <sheet number="2" name="/LoRa/" tstamps="/27260fd1-7e11-444d-9206-9db48718c252/">
       <title_block>
-        <title/>
+        <title>FLORA</title>
         <company/>
-        <rev/>
-        <date/>
+        <rev>B</rev>
+        <date>2022-06-01</date>
         <source>lora.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -44,8 +44,8 @@
       <title_block>
         <title>FLORA</title>
         <company/>
-        <rev>A</rev>
-        <date>2022-04-27</date>
+        <rev>B</rev>
+        <date>2022-06-01</date>
         <source>microcontroller.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -60,10 +60,10 @@
     </sheet>
     <sheet number="4" name="/Sensors/" tstamps="/6645415c-654e-4474-b18d-e48b4aa9de43/">
       <title_block>
-        <title/>
+        <title>FLORA</title>
         <company/>
-        <rev/>
-        <date/>
+        <rev>B</rev>
+        <date>2022-06-01</date>
         <source>sensor.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -78,10 +78,10 @@
     </sheet>
     <sheet number="5" name="/Battery/" tstamps="/99e49cb0-f4b5-4d70-9f27-821a65e53a72/">
       <title_block>
-        <title/>
+        <title>FLORA</title>
         <company/>
-        <rev/>
-        <date/>
+        <rev>B</rev>
+        <date>2022-06-01</date>
         <source>battery.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -96,10 +96,10 @@
     </sheet>
     <sheet number="6" name="/Connector/" tstamps="/74a12308-4a41-4350-a047-fe690f0632a6/">
       <title_block>
-        <title/>
+        <title>FLORA</title>
         <company/>
-        <rev/>
-        <date/>
+        <rev>B</rev>
+        <date>2022-06-01</date>
         <source>connector.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -114,10 +114,10 @@
     </sheet>
     <sheet number="7" name="/USB/" tstamps="/f45a239e-fd99-4782-8db3-ccd35046d6c3/">
       <title_block>
-        <title/>
+        <title>FLORA</title>
         <company/>
-        <rev/>
-        <date/>
+        <rev>B</rev>
+        <date>2022-06-01</date>
         <source>usb.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -283,14 +283,14 @@
       <tstamps>21a32900-59c5-422f-9ce7-043567468f92</tstamps>
     </comp>
     <comp ref="U1">
-      <value>Ai-Thinker-Ra-01</value>
+      <value>Ai-Thinker-Ra-01H</value>
       <footprint>RF_Module:Ai-Thinker-Ra-01-LoRa</footprint>
-      <datasheet>https://docs.ai-thinker.com/_media/lora/docs/ra-01s_specification.pdf</datasheet>
+      <datasheet>https://cdn.ozdisan.com/ETicaret_Dosya/632831_134737.pdf</datasheet>
       <fields>
-        <field name="LCSC">C2830749</field>
+        <field name="LCSC">C503593</field>
       </fields>
-      <libsource lib="RF_JLC" part="Ai-Thinker-Ra-01" description="Ai-Thinker Ra-01 410-525 MHz LoRa Module, SPI interface, external antenna"/>
-      <property name="LCSC" value="C2830749"/>
+      <libsource lib="RF_JLC" part="Ai-Thinker-Ra-01H" description="Ai-Thinker SX1276 SoC Chip 868Mhz Ultra Long Distance Wireless Spread Spectrum LoRa Module Ra-01H"/>
+      <property name="LCSC" value="C503593"/>
       <property name="Sheetname" value="LoRa"/>
       <property name="Sheetfile" value="lora.kicad_sch"/>
       <sheetpath names="/LoRa/" tstamps="/27260fd1-7e11-444d-9206-9db48718c252/"/>
@@ -408,15 +408,6 @@
       <property name="Sheetfile" value="microcontroller.kicad_sch"/>
       <sheetpath names="/Microcontroller/" tstamps="/707b1282-fdf9-4928-869a-9dbf3a817513/"/>
       <tstamps>a20c99ec-f62d-46b2-adb3-8d544633d9a7</tstamps>
-    </comp>
-    <comp ref="J8">
-      <value>Conn_01x04</value>
-      <footprint>Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="Microcontroller"/>
-      <property name="Sheetfile" value="microcontroller.kicad_sch"/>
-      <sheetpath names="/Microcontroller/" tstamps="/707b1282-fdf9-4928-869a-9dbf3a817513/"/>
-      <tstamps>fba9e53d-46c5-41dd-9af1-9cd4fcf2d5f5</tstamps>
     </comp>
     <comp ref="Q1">
       <value>MUN5214DW1T1G</value>
@@ -831,6 +822,22 @@
       <property name="Sheetfile" value="battery.kicad_sch"/>
       <sheetpath names="/Battery/" tstamps="/99e49cb0-f4b5-4d70-9f27-821a65e53a72/"/>
       <tstamps>62267af4-911d-43ff-b87f-b25b2daab4d5</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>220uF_E_LV</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.4</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2105211834_Honor-Elec-RVT1A221M0605_C3345.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C3345</field>
+        <field name="Rating">10V</field>
+      </fields>
+      <libsource lib="Capacitor_JLC" part="220uF_E_LV" description="-55℃~+105℃ 2000hrs@105℃ 220uF 5.4mm 10V 6.3mm ±20% SMD,6.3x5.4mm Aluminum Electrolytic Capacitors - SMD ROHS"/>
+      <property name="LCSC" value="C3345"/>
+      <property name="Rating" value="10V"/>
+      <property name="Sheetname" value="Battery"/>
+      <property name="Sheetfile" value="battery.kicad_sch"/>
+      <sheetpath names="/Battery/" tstamps="/99e49cb0-f4b5-4d70-9f27-821a65e53a72/"/>
+      <tstamps>572f6729-950c-4002-88bd-4b8da82c0e60</tstamps>
     </comp>
     <comp ref="D1">
       <value>Green_0603</value>
@@ -1559,14 +1566,14 @@
       <tstamps>6687ed3a-63c1-43a7-9ed3-7da9b6dac60d</tstamps>
     </comp>
     <comp ref="U4">
-      <value>CH340B</value>
+      <value>CH340C</value>
       <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
       <datasheet>https://www.mpja.com/download/35227cpdata.pdf</datasheet>
       <fields>
-        <field name="LCSC">C81010</field>
+        <field name="LCSC">C84681</field>
       </fields>
-      <libsource lib="Misc_JLC" part="CH340B" description="USB serial converter, UART, SOIC-16"/>
-      <property name="LCSC" value="C81010"/>
+      <libsource lib="Misc_JLC" part="CH340C" description="Transceiver 2Mbps USB 2.0 SOP-16_150mil  USB ICs ROHS"/>
+      <property name="LCSC" value="C84681"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="usb.kicad_sch"/>
       <sheetpath names="/USB/" tstamps="/f45a239e-fd99-4782-8db3-ccd35046d6c3/"/>
@@ -1627,6 +1634,25 @@
         <field name="Type">X5R</field>
         <field name="LCSC">C15850</field>
         <field name="Voltage">25V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitor_JLC" part="220uF_E_LV">
+      <description>-55℃~+105℃ 2000hrs@105℃ 220uF 5.4mm 10V 6.3mm ±20% SMD,6.3x5.4mm Aluminum Electrolytic Capacitors - SMD ROHS</description>
+      <docs>https://datasheet.lcsc.com/lcsc/2105211834_Honor-Elec-RVT1A221M0605_C3345.pdf</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220uF_E_LV</field>
+        <field name="Footprint">Capacitor_SMD:CP_Elec_6.3x5.4</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2105211834_Honor-Elec-RVT1A221M0605_C3345.pdf</field>
+        <field name="LCSC">C3345</field>
+        <field name="Rating">10V</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -1992,18 +2018,18 @@
         <field name="Datasheet">~</field>
       </fields>
     </libpart>
-    <libpart lib="Misc_JLC" part="CH340B">
-      <description>USB serial converter, UART, SOIC-16</description>
+    <libpart lib="Misc_JLC" part="CH340C">
+      <description>Transceiver 2Mbps USB 2.0 SOP-16_150mil  USB ICs ROHS</description>
       <docs>https://www.mpja.com/download/35227cpdata.pdf</docs>
       <footprints>
         <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">CH340B</field>
+        <field name="Value">CH340C</field>
         <field name="Footprint">Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</field>
         <field name="Datasheet">https://www.mpja.com/download/35227cpdata.pdf</field>
-        <field name="LCSC">C81010</field>
+        <field name="LCSC">C84681</field>
       </fields>
       <pins>
         <pin num="1" name="GND" type="power_in"/>
@@ -2122,18 +2148,18 @@
         <pin num="8" name="PH" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="RF_JLC" part="Ai-Thinker-Ra-01">
-      <description>Ai-Thinker Ra-01 410-525 MHz LoRa Module, SPI interface, external antenna</description>
-      <docs>https://docs.ai-thinker.com/_media/lora/docs/ra-01s_specification.pdf</docs>
+    <libpart lib="RF_JLC" part="Ai-Thinker-Ra-01H">
+      <description>Ai-Thinker SX1276 SoC Chip 868Mhz Ultra Long Distance Wireless Spread Spectrum LoRa Module Ra-01H</description>
+      <docs>https://cdn.ozdisan.com/ETicaret_Dosya/632831_134737.pdf</docs>
       <footprints>
         <fp>Ai?Thinker?Ra?01*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">Ai-Thinker-Ra-01</field>
+        <field name="Value">Ai-Thinker-Ra-01H</field>
         <field name="Footprint">RF_Module:Ai-Thinker-Ra-01-LoRa</field>
-        <field name="Datasheet">https://docs.ai-thinker.com/_media/lora/docs/ra-01s_specification.pdf</field>
-        <field name="LCSC">Ra-01SC</field>
+        <field name="Datasheet">https://cdn.ozdisan.com/ETicaret_Dosya/632831_134737.pdf</field>
+        <field name="LCSC">C503593</field>
       </fields>
       <pins>
         <pin num="1" name="ANT" type="passive"/>
@@ -2652,11 +2678,11 @@
       <node ref="C23" pin="2" pintype="passive"/>
       <node ref="C24" pin="2" pintype="passive"/>
       <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
-      <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="D3" pin="2" pintype="passive"/>
       <node ref="IC1" pin="1" pinfunction="GND_1" pintype="passive"/>
@@ -2688,6 +2714,7 @@
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="S1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="S2" pin="1" pinfunction="1" pintype="passive"/>
@@ -2719,22 +2746,18 @@
     <net code="19" name="GPIO12">
       <node ref="IC1" pin="14" pinfunction="IO12" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
     <net code="20" name="GPIO13">
       <node ref="IC1" pin="16" pinfunction="IO13" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
     <net code="21" name="GPIO14">
       <node ref="IC1" pin="13" pinfunction="IO14" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="~{RESET}" pintype="input"/>
     </net>
     <net code="22" name="GPIO15">
       <node ref="IC1" pin="23" pinfunction="IO15" pintype="passive"/>
-      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
     <net code="23" name="GPIO16">
       <node ref="IC1" pin="27" pinfunction="IO16" pintype="passive"/>
@@ -2804,12 +2827,12 @@
     </net>
     <net code="39" name="Net-(C5-Pad1)">
       <node ref="C5" pin="1" pintype="passive"/>
-      <node ref="IC6" pin="6" pinfunction="COMP" pintype="passive"/>
-      <node ref="R6" pin="1" pintype="passive"/>
-    </net>
-    <net code="40" name="Net-(C7-Pad1)">
       <node ref="C7" pin="1" pintype="passive"/>
-      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="IC6" pin="6" pinfunction="COMP" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
     </net>
     <net code="41" name="Net-(C8-Pad1)">
       <node ref="C8" pin="1" pintype="passive"/>
@@ -2834,6 +2857,7 @@
       <node ref="C14" pin="1" pintype="passive"/>
       <node ref="C19" pin="1" pintype="passive"/>
       <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
       <node ref="JP6" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="L1" pin="2" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
@@ -2895,29 +2919,29 @@
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
     </net>
-    <net code="60" name="Net-(JP1-Pad1)">
+    <net code="60" name="Net-(IC7-Pad2)">
+      <node ref="IC7" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="JP7" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(JP1-Pad1)">
       <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="DIO1" pintype="bidirectional"/>
     </net>
-    <net code="61" name="Net-(JP2-Pad1)">
+    <net code="62" name="Net-(JP2-Pad1)">
       <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="DIO2" pintype="bidirectional"/>
     </net>
-    <net code="62" name="Net-(JP3-Pad1)">
+    <net code="63" name="Net-(JP3-Pad1)">
       <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="DIO3" pintype="bidirectional"/>
     </net>
-    <net code="63" name="Net-(JP4-Pad1)">
+    <net code="64" name="Net-(JP4-Pad1)">
       <node ref="JP4" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="DIO4" pintype="bidirectional"/>
     </net>
-    <net code="64" name="Net-(JP5-Pad1)">
+    <net code="65" name="Net-(JP5-Pad1)">
       <node ref="JP5" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="U1" pin="11" pinfunction="DIO5" pintype="bidirectional"/>
-    </net>
-    <net code="65" name="Net-(JP7-Pad1)">
-      <node ref="IC7" pin="2" pinfunction="VO" pintype="power_out"/>
-      <node ref="JP7" pin="1" pinfunction="A" pintype="passive"/>
     </net>
     <net code="66" name="Net-(R1-Pad1)">
       <node ref="R1" pin="1" pintype="passive"/>

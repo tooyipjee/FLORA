@@ -6,8 +6,8 @@
 
   (title_block
     (title "FLORA")
-    (date "2022-03-23")
-    (rev "A")
+    (date "2022-06-01")
+    (rev "B")
   )
 
   (lib_symbols
@@ -741,6 +741,9 @@
     (path "/6645415c-654e-4474-b18d-e48b4aa9de43/d41391eb-b171-4635-876a-25165a73b425"
       (reference "C25") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
+    (path "/99e49cb0-f4b5-4d70-9f27-821a65e53a72/572f6729-950c-4002-88bd-4b8da82c0e60"
+      (reference "C26") (unit 1) (value "220uF_E_LV") (footprint "Capacitor_SMD:CP_Elec_6.3x5.4")
+    )
     (path "/99e49cb0-f4b5-4d70-9f27-821a65e53a72/212f951d-da0b-4256-bf83-98236179903c"
       (reference "D1") (unit 1) (value "Green_0603") (footprint "LED_SMD:LED_0603_1608Metric")
     )
@@ -809,9 +812,6 @@
     )
     (path "/f45a239e-fd99-4782-8db3-ccd35046d6c3/8963dfa4-001b-467c-aef8-edbcefb2ec43"
       (reference "J6") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical")
-    )
-    (path "/707b1282-fdf9-4928-869a-9dbf3a817513/fba9e53d-46c5-41dd-9af1-9cd4fcf2d5f5"
-      (reference "J8") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical")
     )
     (path "/27260fd1-7e11-444d-9206-9db48718c252/1f46b63a-f00d-431d-9802-47eb928cc72d"
       (reference "JP1") (unit 1) (value "SB_NO") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
@@ -937,13 +937,13 @@
       (reference "TP7") (unit 1) (value "TestPoint_Alt") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/27260fd1-7e11-444d-9206-9db48718c252/361ef32f-df03-4c0a-b1ec-da0055861d33"
-      (reference "U1") (unit 1) (value "Ai-Thinker-Ra-01") (footprint "RF_Module:Ai-Thinker-Ra-01-LoRa")
+      (reference "U1") (unit 1) (value "Ai-Thinker-Ra-01H") (footprint "RF_Module:Ai-Thinker-Ra-01-LoRa")
     )
     (path "/74a12308-4a41-4350-a047-fe690f0632a6/d0a49961-7295-411a-ad35-86faadb61ab4"
       (reference "U3") (unit 1) (value "USBLC6-2P6") (footprint "Package_TO_SOT_SMD:SOT-666")
     )
     (path "/f45a239e-fd99-4782-8db3-ccd35046d6c3/a9808259-0450-426c-820c-e0f1f4506317"
-      (reference "U4") (unit 1) (value "CH340B") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
+      (reference "U4") (unit 1) (value "CH340C") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
   )
 )
