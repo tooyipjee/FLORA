@@ -2,7 +2,7 @@ Comment,Designator,Footprint,LCSC
 "Antenna","AE1","RF_Antenna:Texas_SWRA416_868MHz_915MHz",""
 "Battery_Cell","BT1","BatteryHolders:BS-24-B4AK014",""
 "10u","C1,C3,C6,C13,C14,C15,C21,C24","Capacitor_SMD:C_0805_2012Metric","C15850"
-"22u","C16,C18,C19,C20","Capacitor_SMD:C_0805_2012Metric","C45783"
+"22u","C16,C18,C19,C20","Capacitor_SMD:C_0805_2012Metric","C602037"
 "100n","C2,C4,C9,C10,C11,C12,C17,C22,C23,C25","Capacitor_SMD:C_0402_1005Metric","C307331"
 "220uF_E_LV","C26","Capacitor_SMD:CP_Elec_6.3x5.4","C3345"
 "4.7n","C5","Capacitor_SMD:C_0402_1005Metric","C1538"
