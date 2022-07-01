@@ -6,8 +6,8 @@
 
   (title_block
     (title "FLORA")
-    (date "2022-06-01")
-    (rev "B")
+    (date "2022-07-01")
+    (rev "C")
   )
 
   (lib_symbols
@@ -287,7 +287,6 @@
       )
     )
   )
-
 
   (junction (at 109.855 76.835) (diameter 0) (color 0 0 0 0)
     (uuid 22918d3b-ba20-4b7b-80e5-d0ba954b0f0d)
