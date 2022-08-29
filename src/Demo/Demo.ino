@@ -1,6 +1,6 @@
 #include "flora_sht20.h"
 #define uS_TO_S_FACTOR 1000000ULL  /* Conversion factor for micro seconds to seconds */
-#define TIME_TO_SLEEP  900       /* Time ESP32 will go to sleep (in seconds) */
+#define TIME_TO_SLEEP  30*60       /* Time ESP32 will go to sleep (in seconds) */
 
 //  PERIPHERALS
 flora_sht20 sht20(&Wire, SHT20_I2C_ADDR);
@@ -51,8 +51,8 @@ int32_t getWiFiChannel(const char *ssid) {
 
 // callback when data is sent
 void OnDataSent(const uint8_t *mac_addr, esp_now_send_status_t status) {
-  Serial.print("\r\nLast Packet Send Status:\t");
-  Serial.println(status == ESP_NOW_SEND_SUCCESS ? "Delivery Success" : "Delivery Fail");
+//  Serial.print("\r\nLast Packet Send Status:\t");
+//  Serial.println(status == ESP_NOW_SEND_SUCCESS ? "Delivery Success" : "Delivery Fail");
 }
 esp_now_peer_info_t peerInfo;
 
@@ -114,14 +114,14 @@ void loop()
 //  Serial.println(humd, 1);   // Only print one decimal place
 
   // Save the last time a new reading was published
-  //Set values to send
+  //Set values to send 
   myData.id = BOARD_ID;
   myData.temp = temp;
   myData.hum = humd;
-  myData.moist_1 = map(touchRead(12), 0, 35, 0, 100);
-  myData.moist_2 = map(touchRead(13), 0, 35, 0, 100);
+  myData.moist_1 = 100-map(touchRead(12), 0, 35, 0, 100);
+  myData.moist_2 = 100-map(touchRead(13), 0, 35, 0, 100);
   myData.readingId = readingId++;
-
+ 
   //Send message via ESP-NOW
   for (int i = 0; i < 5; i++)
   {
