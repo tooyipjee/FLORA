@@ -1,5 +1,5 @@
 #define uS_TO_S_FACTOR 1000000ULL  /* Conversion factor for micro seconds to seconds */
-#define TIME_TO_SLEEP  900       /* Time ESP32 will go to sleep (in seconds) */
+#define TIME_TO_SLEEP  1800       /* Time ESP32 will go to sleep (in seconds) */
 
 //24:4C:AB:16:91:50
 /*

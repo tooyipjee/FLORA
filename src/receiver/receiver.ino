@@ -1,12 +1,5 @@
 /*
-  Rui Santos
-  Complete project details at https://RandomNerdTutorials.com/esp32-esp-now-wi-fi-web-server/
-
-  Permission is hereby granted, free of charge, to any person obtaining a copy
-  of this software and associated documentation files.
-
-  The above copyright notice and this permission notice shall be included in all
-  copies or substantial portions of the Software.
+DOIT ESP32 DEVKIT V1
 */
 
 #include <esp_now.h>
@@ -21,7 +14,7 @@ int time_in_us = 25*60*1000000;
 unsigned long myChannelNumber = 1756801;
 const char * myWriteAPIKey = "46LUWZJQL7LBCMVN";
 // Replace with your network credentials (STATION)
-const char* ssid = "VM5191158";
+const char* ssid = "VM5191158_EXT";
 const char* password = "kgLpwnrX3jrr";
 
 // Structure example to receive data
@@ -154,9 +147,16 @@ void setup() {
   // Set device as a Wi-Fi Station
   WiFi.begin(ssid, password);
   delay(500);
+  int tryCounter = 0;
   while (WiFi.status() != WL_CONNECTED) {
+    if (tryCounter==10)
+    {
+      Serial.println("Restarting...");
+      ESP.restart();
+    }
     delay(1000);
     Serial.println("Setting as a Wi-Fi Station..");
+    tryCounter++;
   }
   Serial.print("MAC Address:  ");
   Serial.println(WiFi.macAddress());
@@ -189,6 +189,7 @@ void setup() {
   });
 //  server.addHandler(&events);
 //  server.begin();
+  Serial.println("Listening...");
 }
 
 void loop() {

@@ -1,3 +1,5 @@
+//DOIT ESP32 DEVKIT V1
+
 #include "flora_sht20.h"
 #define uS_TO_S_FACTOR 1000000ULL  /* Conversion factor for micro seconds to seconds */
 #define TIME_TO_SLEEP  30*60       /* Time ESP32 will go to sleep (in seconds) */
@@ -28,9 +30,6 @@ typedef struct struct_message {
 
 //Create a struct_message called myData
 struct_message myData;
-
-unsigned long previousMillis = 0;   // Stores last time temperature was published
-const long interval = 10000;        // Interval at which to publish sensor readings
 
 unsigned int readingId = 0;
 
@@ -106,12 +105,6 @@ void loop()
   float humd = sht20.readHumidity(); //Read the measured data of air humidity
   float temp = sht20.readTemperature(); //Read the measured temp data
 
-//  //  DEMO: PRINT OUTPUT
-//  Serial.print(" Temperature:");
-//  Serial.print(temp, 1);   // Only print one decimal place
-//  //  Serial.print("C");
-//  Serial.print(" Humidity:");
-//  Serial.println(humd, 1);   // Only print one decimal place
 
   // Save the last time a new reading was published
   //Set values to send 
@@ -126,11 +119,11 @@ void loop()
   for (int i = 0; i < 5; i++)
   {
     esp_err_t result = esp_now_send(broadcastAddress, (uint8_t *) &myData, sizeof(myData));
-    if (result == ESP_OK) {
+    if (result == ESP_OK && i==5) {
       Serial.println("Sent with success");
-      i = 5;
     }
-    else {
+    else if(result != ESP_OK && i==5) 
+    {
       Serial.println("Error sending the data");
     }
     delay(5000);
