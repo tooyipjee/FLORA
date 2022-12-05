@@ -704,9 +704,6 @@
     (path "/27260fd1-7e11-444d-9206-9db48718c252/4da98352-1beb-4c8a-b650-e1a4850f9399"
       (reference "J7") (unit 1) (value "U.FL-R-SMT-1_10_") (footprint "SamacSys_Parts:U.FL-R-SMT-1_10_")
     )
-    (path "/99e49cb0-f4b5-4d70-9f27-821a65e53a72/64376dac-1a96-4fc4-aeed-ea6cad532d75"
-      (reference "JP7") (unit 1) (value "SB_NC") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
-    )
     (path "/99e49cb0-f4b5-4d70-9f27-821a65e53a72/bee44404-34d4-41f6-9719-8eb09df19025"
       (reference "JP8") (unit 1) (value "SB_NC") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
     )
@@ -751,6 +748,12 @@
     )
     (path "/99e49cb0-f4b5-4d70-9f27-821a65e53a72/a54e984c-a2a3-4935-8b22-45bce17189a0"
       (reference "R10") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/99e49cb0-f4b5-4d70-9f27-821a65e53a72/aff9b715-004b-496b-b7a5-8a3d352dea1a"
+      (reference "R11") (unit 1) (value "DNF_0805") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/99e49cb0-f4b5-4d70-9f27-821a65e53a72/6146eab9-fca2-4bb4-bc11-0a211214f1c3"
+      (reference "R12") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/f45a239e-fd99-4782-8db3-ccd35046d6c3/bed43431-0bcd-496d-974b-7751caa56411"
       (reference "R13") (unit 1) (value "DNF_0402") (footprint "Resistor_SMD:R_0402_1005Metric")
