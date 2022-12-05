@@ -456,8 +456,7 @@
         "microvia_drill": 0.1,
         "name": "uStrip_4layer",
         "nets": [
-          "Net-(AE1-Pad1)",
-          "Net-(R1-Pad1)"
+          "Net-(AE1-Pad1)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
