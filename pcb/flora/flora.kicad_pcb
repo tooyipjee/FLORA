@@ -92,7 +92,7 @@
 
   (net 0 "")
   (net 1 "EN")
-  (net 2 "Net-(C19-Pad1)")
+  (net 2 "Net-(C14-Pad1)")
   (net 3 "Net-(C10-Pad1)")
   (net 4 "Net-(C8-Pad2)")
   (net 5 "GPIO0")
@@ -584,7 +584,7 @@
     (fp_line (start -0.525 -0.27) (end 0.525 -0.27) (layer "F.Fab") (width 0.1) (tstamp a3fb90e3-ac89-447a-8b70-fc5712ec8136))
     (fp_line (start 0.525 0.27) (end -0.525 0.27) (layer "F.Fab") (width 0.1) (tstamp d610351c-a190-40a1-99e0-2223063accfd))
     (pad "1" smd roundrect locked (at -0.51 0 90) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 2 "Net-(C19-Pad1)") (pintype "passive") (tstamp 3ef0c405-4e20-4ed1-8d23-a549b05b5837))
+      (net 2 "Net-(C14-Pad1)") (pintype "passive") (tstamp 3ef0c405-4e20-4ed1-8d23-a549b05b5837))
     (pad "2" smd roundrect locked (at 0.51 0 90) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "Net-(C8-Pad2)") (pintype "passive") (tstamp e1f6b4b4-e611-4235-8ed9-ebcf3807e5bf))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
@@ -1118,7 +1118,7 @@
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp e74c5e37-c4b2-4ecb-bff4-6f7e1c448d91))
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp f5cf2763-2c3c-47b5-9c94-b5631851b114))
     (pad "1" smd roundrect locked (at -0.95 0 180) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 2 "Net-(C19-Pad1)") (pintype "passive") (tstamp ba46e104-3025-4d5a-a13b-aecf6bb18594))
+      (net 2 "Net-(C14-Pad1)") (pintype "passive") (tstamp ba46e104-3025-4d5a-a13b-aecf6bb18594))
     (pad "2" smd roundrect locked (at 0.95 0 180) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 92 "GND") (pintype "passive") (tstamp 114d0c94-58bb-4cd1-ad45-12e273725579))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
@@ -3117,7 +3117,7 @@
     (pad "1" smd rect locked (at -1.65 0 270) (size 1.9 3.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 37 "Net-(C10-Pad2)") (pinfunction "1") (pintype "passive") (tstamp 190e5db4-2e78-4247-8e9e-f143f5a2a297))
     (pad "2" smd rect locked (at 1.65 0 270) (size 1.9 3.4) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 2 "Net-(C19-Pad1)") (pinfunction "2") (pintype "passive") (tstamp 1c03f022-8246-4922-9c00-dba5f9ac823b))
+      (net 2 "Net-(C14-Pad1)") (pinfunction "2") (pintype "passive") (tstamp 1c03f022-8246-4922-9c00-dba5f9ac823b))
     (model "C:\\Users\\tooyi\\OneDrive\\KiCad\\SamacSys\\SamacSys_Parts.3dshapes\\SWPA4030S3R3MT.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3160,7 +3160,7 @@
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp 9d072175-6cd4-46e7-8845-1132e5fc1b17))
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp c566607a-ed73-4dd1-bced-a0f9e98d27e4))
     (pad "1" smd roundrect locked (at -0.95 0 180) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 2 "Net-(C19-Pad1)") (pintype "passive") (tstamp 19a4f767-dc1c-42e6-80bf-577af4534bd6))
+      (net 2 "Net-(C14-Pad1)") (pintype "passive") (tstamp 19a4f767-dc1c-42e6-80bf-577af4534bd6))
     (pad "2" smd roundrect locked (at 0.95 0 180) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 92 "GND") (pintype "passive") (tstamp 37b14c37-2c62-413c-9246-82d11641b9ae))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
@@ -3257,7 +3257,7 @@
     (fp_line (start 1.65 1.25) (end 1.65 -1.25) (layer "F.CrtYd") (width 0.05) (tstamp d7c4add1-bb6c-4ece-b572-685a80fc0ce3))
     (fp_line (start 1.65 1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp eb3b5c6e-2f8e-414d-8289-c66933a61f6c))
     (pad "1" smd custom locked (at -0.725 0 270) (size 0.3 0.3) (layers "F.Cu" "F.Mask")
-      (net 2 "Net-(C19-Pad1)") (pinfunction "A") (pintype "passive") (zone_connect 2)
+      (net 2 "Net-(C14-Pad1)") (pinfunction "A") (pintype "passive") (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly (pts
@@ -3317,7 +3317,7 @@
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp 76af94e2-2250-4288-a448-f18ab5ba0b5e))
     (fp_line (start -1 0.625) (end -1 -0.625) (layer "F.Fab") (width 0.1) (tstamp dc67a489-1ca9-400b-8b27-4d326099561f))
     (pad "1" smd roundrect locked (at -0.95 0 180) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 2 "Net-(C19-Pad1)") (pintype "passive") (tstamp 74548fdb-58ac-43b5-9e58-a2234fad4524))
+      (net 2 "Net-(C14-Pad1)") (pintype "passive") (tstamp 74548fdb-58ac-43b5-9e58-a2234fad4524))
     (pad "2" smd roundrect locked (at 0.95 0 180) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 92 "GND") (pintype "passive") (tstamp 42a12a4b-bd62-49d1-8f77-a6deaeeee8d8))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
@@ -3933,7 +3933,7 @@
     (fp_line (start 0.5 0.25) (end -0.5 0.25) (layer "F.Fab") (width 0.1) (tstamp a2c88edb-de77-4fcd-9cc0-119965935e0e))
     (fp_line (start 0.5 -0.25) (end 0.5 0.25) (layer "F.Fab") (width 0.1) (tstamp eda8dd6b-776b-4c37-9caa-384399f3bf1f))
     (pad "1" smd roundrect locked (at -0.48 0 90) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 2 "Net-(C19-Pad1)") (pintype "passive") (tstamp 421f3112-b7c7-4f4b-9121-a3cf0cf0597e))
+      (net 2 "Net-(C14-Pad1)") (pintype "passive") (tstamp 421f3112-b7c7-4f4b-9121-a3cf0cf0597e))
     (pad "2" smd roundrect locked (at 0.48 0 90) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "Net-(C8-Pad2)") (pintype "passive") (tstamp 72616612-d502-4e5c-8d3c-0e1b715fac0b))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
@@ -6063,7 +6063,7 @@
       )
     )
   )
-  (zone (net 2) (net_name "Net-(C19-Pad1)") (layer "F.Cu") (tstamp 8160287d-5bb9-4693-8c54-1487325caca9) (hatch edge 0.508)
+  (zone (net 2) (net_name "Net-(C14-Pad1)") (layer "F.Cu") (tstamp 8160287d-5bb9-4693-8c54-1487325caca9) (hatch edge 0.508)
     (priority 3)
     (connect_pads yes (clearance 0.15))
     (min_thickness 0.15) (filled_areas_thickness no)
