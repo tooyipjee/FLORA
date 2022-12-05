@@ -803,8 +803,8 @@
     (path "/707b1282-fdf9-4928-869a-9dbf3a817513/67d0988a-f981-4a95-8fc5-6a35d31786fd"
       (reference "TP7") (unit 1) (value "TestPoint_Alt") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
-    (path "/27260fd1-7e11-444d-9206-9db48718c252/361ef32f-df03-4c0a-b1ec-da0055861d33"
-      (reference "U1") (unit 1) (value "Ai-Thinker-Ra-01H") (footprint "RF_Module:Ai-Thinker-Ra-01-LoRa")
+    (path "/27260fd1-7e11-444d-9206-9db48718c252/b559f405-4de0-4485-9eb1-aa1ba6266fb3"
+      (reference "U1") (unit 1) (value "RFM95W-868S2") (footprint "personal:RFM95W")
     )
     (path "/74a12308-4a41-4350-a047-fe690f0632a6/d0a49961-7295-411a-ad35-86faadb61ab4"
       (reference "U3") (unit 1) (value "USBLC6-2P6") (footprint "Package_TO_SOT_SMD:SOT-666")
