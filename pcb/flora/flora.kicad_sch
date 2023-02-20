@@ -608,11 +608,11 @@
     (path "/707b1282-fdf9-4928-869a-9dbf3a817513/361247c4-b43c-47ef-b3c8-f8ff60f69348"
       (reference "C12") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/99e49cb0-f4b5-4d70-9f27-821a65e53a72/3fa5760b-1c36-4a78-a1a1-84703e464892"
-      (reference "C13") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    (path "/99e49cb0-f4b5-4d70-9f27-821a65e53a72/4e1fb571-a341-44cf-a96b-7fda2bbfed99"
+      (reference "C13") (unit 1) (value "10u_0402") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/99e49cb0-f4b5-4d70-9f27-821a65e53a72/723f43ca-7066-4a6b-8740-00763cd00014"
-      (reference "C15") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    (path "/99e49cb0-f4b5-4d70-9f27-821a65e53a72/847fd428-0df2-40cd-be90-1ac7ffddd3ef"
+      (reference "C14") (unit 1) (value "10u_0402") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/707b1282-fdf9-4928-869a-9dbf3a817513/90cbaa9a-3385-4bc6-b0bc-f0dcb34b580e"
       (reference "C16") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -790,9 +790,6 @@
     )
     (path "/99e49cb0-f4b5-4d70-9f27-821a65e53a72/d6c6f753-c439-4165-b721-656e8985e556"
       (reference "TP2") (unit 1) (value "TestPoint_Alt") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
-    )
-    (path "/74a12308-4a41-4350-a047-fe690f0632a6/f39e9098-406c-4b2b-a47e-2a54cd491812"
-      (reference "TP3") (unit 1) (value "USB Test Point") (footprint "personal:USB_TestPoint")
     )
     (path "/707b1282-fdf9-4928-869a-9dbf3a817513/93639ccd-5858-4a42-8587-a36efda8e953"
       (reference "TP4") (unit 1) (value "TestPoint_Alt") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
